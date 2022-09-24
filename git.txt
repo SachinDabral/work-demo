@@ -1,0 +1,32 @@
+notes:
+----------
+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
+
+git init
+git status
+git add .
+git commit -m "note"
+git log
+git stash
+git stash pop
+git stash clean
+git remote add origin https://github.com/SachinDabral/Daily-Workspace.git
+   attach the remote github url with the project folder
+git remote -v  
+   all the URL attached to the folder
+git push origin master
+   push the committed changes to the remote repository
+git branch feature
+   never commit to the main branch
+git checkout feature
+   head, master,feature
+   head is pointer which always refer to the current branch
+git merge feature
+
+git remote add upstream https://github.com/SachinDabral/work-demo.git
+
+git remote -v
+  origin  https://github.com/kathoor-org/work-demo.git (fetch)
+  origin  https://github.com/kathoor-org/work-demo.git (push)
+  upstream        https://github.com/SachinDabral/work-demo.git (fetch)
+  upstream        https://github.com/SachinDabral/work-demo.git (push)
